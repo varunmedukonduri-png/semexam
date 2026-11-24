@@ -1,0 +1,246 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f7fb;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Navigation */
+header {
+    background: #172554;
+    color: white;
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 18px;
+}
+
+nav a:hover {
+    color: #60a5fa;
+}
+
+/* Hero */
+.hero {
+    background: linear-gradient(120deg, #1e3a8a, #3b82f6);
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.hero h2 {
+    font-size: 38px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    max-width: 650px;
+    margin: auto auto 30px;
+}
+
+.btn {
+    display: inline-block;
+    background: white;
+    color: #1e40af;
+    padding: 12px 25px;
+    text-decoration: none;
+    border-radius: 6px;
+}
+
+/* Learning */
+#learning {
+    padding: 60px 30px;
+    text-align: center;
+}
+
+#learning h2 {
+    margin-bottom: 30px;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+.card {
+    background: white;
+    width: 280px;
+    padding: 30px 20px;
+    border-radius: 12px;
+    box-shadow: 0 3px 12px #ddd;
+}
+
+.card h3 {
+    color: #2563eb;
+    margin-bottom: 15px;
+}
+
+/* Environment */
+.environment {
+    background: white;
+    text-align: center;
+    padding: 60px 30px;
+}
+
+.environment h2 {
+    margin-bottom: 25px;
+}
+
+.environment img {
+    width: 70%;
+    max-width: 700px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 12px;
+    margin-bottom: 25px;
+}
+
+.environment p {
+    max-width: 850px;
+    margin: auto;
+    text-align: justify;
+}
+
+/* Portfolio */
+.portfolio {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.portfolio h2 {
+    margin-bottom: 15px;
+}
+
+.upload-box {
+    background: white;
+    border: 2px dashed #2563eb;
+    border-radius: 15px;
+    padding: 35px 20px;
+    max-width: 450px;
+    margin: 30px auto;
+}
+
+.upload-icon {
+    font-size: 45px;
+}
+
+.upload-box h3 {
+    margin: 10px;
+}
+
+.upload-box input {
+    display: block;
+    margin: 20px auto;
+    max-width: 100%;
+}
+
+button {
+    background: #2563eb;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #1e40af;
+}
+
+#fileName {
+    margin-top: 15px;
+}
+
+/* PDF Preview */
+#portfolioPreview {
+    max-width: 850px;
+    margin: 20px auto;
+}
+
+#portfolioPreview iframe {
+    width: 100%;
+    height: 550px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+}
+
+.download-btn {
+    display: inline-block;
+    margin: 15px;
+    background: #16a34a;
+    color: white;
+    padding: 12px 20px;
+    text-decoration: none;
+    border-radius: 6px;
+}
+
+/* About */
+.about {
+    background: #dbeafe;
+    padding: 60px 30px;
+    text-align: center;
+}
+
+.about h2 {
+    margin-bottom: 20px;
+}
+
+.about p {
+    max-width: 700px;
+    margin: auto;
+}
+
+/* Footer */
+footer {
+    background: #172554;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+
+    header {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    nav {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 12px;
+    }
+
+    nav a {
+        margin: 0;
+    }
+
+    .hero h2 {
+        font-size: 28px;
+    }
+
+    .environment img {
+        width: 100%;
+        height: 200px;
+    }
+
+    #portfolioPreview iframe {
+        height: 400px;
+    }
+}
