@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Medukonduri Varun Chowdary  | EEE • EV • Embedded • AI/ML</title>
+  <meta name="description" content="Portfolio of Varun Medukonduri — B.Tech EEE student focused on EV design, BMS, embedded systems, CAN and AI/ML.">
+  <style>
+    :root{
+      --bg:#090b10; --card:#11151d; --text:#f5f7fa; --muted:#a7afbd;
+      --accent:#78e08f; --border:#252c38;
+    }
+    *{box-sizing:border-box;scroll-behavior:smooth}
+    body{margin:0;background:var(--bg);color:var(--text);font-family:Inter,system-ui,-apple-system,Segoe UI,sans-serif;line-height:1.6}
+    a{color:inherit;text-decoration:none}
+    .container{width:min(1050px,92%);margin:auto}
+    nav{position:sticky;top:0;z-index:10;background:rgba(9,11,16,.88);backdrop-filter:blur(12px);border-bottom:1px solid var(--border)}
+    nav .inner{display:flex;justify-content:space-between;align-items:center;padding:16px 0}
+    .logo{font-weight:800;font-size:20px}.logo span{color:var(--accent)}
+    .links{display:flex;gap:22px;font-size:14px;color:var(--muted)}
+    .links a:hover{color:var(--accent)}
+    .hero{padding:100px 0 75px;display:grid;grid-template-columns:1.5fr 1fr;gap:45px;align-items:center}
+    .tag{display:inline-block;border:1px solid var(--border);padding:7px 12px;border-radius:999px;color:var(--accent);font-size:13px}
+    h1{font-size:clamp(42px,7vw,76px);line-height:1.02;margin:20px 0}
+    h1 span{color:var(--accent)}
+    .hero p{color:var(--muted);font-size:18px;max-width:650px}
+    .buttons{display:flex;gap:12px;flex-wrap:wrap;margin-top:28px}
+    .btn{padding:12px 18px;border-radius:10px;border:1px solid var(--border);font-weight:700}
+    .primary{background:var(--accent);color:#07100a;border-color:var(--accent)}
+    .profile-card{background:linear-gradient(145deg,#151b25,#0e1219);border:1px solid var(--border);border-radius:24px;padding:28px}
+    .profile-card .circle{height:150px;width:150px;border-radius:50%;border:2px solid var(--accent);display:grid;place-items:center;margin:auto;font-size:48px}
+    .profile-card h3{text-align:center;margin-bottom:4px}.profile-card p{text-align:center;color:var(--muted);margin-top:0}
+    section{padding:70px 0;border-top:1px solid var(--border)}
+    .section-title{font-size:32px;margin:0 0 12px}.section-sub{color:var(--muted);margin-bottom:30px}
+    .grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+    .card{background:var(--card);border:1px solid var(--border);border-radius:18px;padding:22px}
+    .card h3{margin-top:0}.card p{color:var(--muted);font-size:14px}
+    .chips{display:flex;flex-wrap:wrap;gap:8px}.chip{background:#171d27;border:1px solid var(--border);padding:6px 10px;border-radius:999px;font-size:13px}
+    .project-link{color:var(--accent);font-weight:700;font-size:14px}
+    .contact{display:grid;grid-template-columns:1fr 1fr;gap:18px}
+    footer{padding:30px 0;color:var(--muted);font-size:13px;text-align:center}
+    @media(max-width:760px){
+      .hero,.contact{grid-template-columns:1fr}.grid{grid-template-columns:1fr}.links{display:none}
+      .hero{padding-top:65px}.profile-card{max-width:420px}
+    }
+  </style>
+</head>
+<body>
+
+<nav>
+  <div class="container inner">
+    <a class="logo" href="#">Varun<span>.</span></a>
+    <div class="links">
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </div>
+</nav>
+
+<main>
+  <section class="container hero">
+    <div>
+      <span class="tag">B.Tech EEE Student • EV • Embedded • AI/ML</span>
+      <h1>Hi, I'm <span>Varun</span>.<br>I build for the future.</h1>
+      <p>
+        I'm a B.Tech Electrical & Electronics Engineering student at KL University
+        focused on electric vehicles, Battery Management Systems, embedded systems,
+        CAN communication, and practical AI/ML. I learn by turning engineering
+        concepts into working projects.
+      </p>
+      <div class="buttons">
+        <a class="btn primary" href="#projects">View Projects</a>
+        <a class="btn" href="https://github.com/varunmedukonduri-png" target="_blank">GitHub ↗</a>
+      </div>
+    </div>
+
+    <div class="profile-card">
+      <div class="circle">VM</div>
+      <h3>Varun Medukonduri</h3>
+      <p>EEE • EV • BMS • Embedded • AI/ML</p>
+      <div class="chips">
+        <span class="chip">Electrical Engineering</span>
+        <span class="chip">EV Technology</span>
+        <span class="chip">Embedded Systems</span>
+        <span class="chip">AI/ML</span>
+      </div>
+    </div>
+  </section>
+
+  <section id="about">
+    <div class="container">
+      <h2 class="section-title">About Me</h2>
+      <p class="section-sub">
+        I’m building a strong foundation in electrical and electronics engineering
+        while developing practical skills in embedded firmware and intelligent systems.
+        My current direction is EV engineering, with particular interest in BMS,
+        automotive electronics, CAN communication, STM32/ESP32 systems, and
+        machine-learning applications.
+      </p>
+    </div>
+  </section>
+
+  <section id="skills">
+    <div class="container">
+      <h2 class="section-title">Skills & Interests</h2>
+      <p class="section-sub">Technologies and areas I’m currently learning and applying.</p>
+      <div class="grid">
+        <div class="card">
+          <h3>Electrical & EV</h3>
+          <div class="chips">
+            <span class="chip">EV Architecture</span><span class="chip">BMS</span>
+            <span class="chip">Vehicle Dynamics</span><span class="chip">Power Electronics</span>
+            <span class="chip">Automotive Electronics</span>
+          </div>
+        </div>
+        <div class="card">
+          <h3>Embedded</h3>
+          <div class="chips">
+            <span class="chip">C</span><span class="chip">Embedded C</span>
+            <span class="chip">STM32</span><span class="chip">CAN</span>
+            <span class="chip">ESP32</span><span class="chip">Arduino</span>
+          </div>
+        </div>
+        <div class="card">
+          <h3>AI / Software</h3>
+          <div class="chips">
+            <span class="chip">Python</span><span class="chip">Machine Learning</span>
+            <span class="chip">XGBoost</span><span class="chip">Computer Vision</span>
+            <span class="chip">FastAPI</span><span class="chip">Data-driven Projects</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects">
+    <div class="container">
+      <h2 class="section-title">Projects</h2>
+      <p class="section-sub">Selected work and ideas I'm developing.</p>
+      <div class="grid">
+        <div class="card">
+          <h3>FrostRoute AI</h3>
+          <p>
+            AI/ML-enabled Antarctic decision-support system combining sea-ice
+            forecasting, iceberg trajectory analysis, and route planning for
+            safer and fuel-aware research-vessel navigation.
+          </p>
+          <a class="project-link" href="https://frostroute-ai-production.up.railway.app" target="_blank">Live Prototype →</a>
+        </div>
+        <div class="card">
+          <h3>AI Traffic Signal</h3>
+          <p>
+            Density-based four-way traffic signal system using IR sensors,
+            Arduino Mega and computer-vision vehicle detection concepts to
+            dynamically allocate green time based on traffic density.
+          </p>
+          <a class="project-link" href="https://github.com/varunmedukonduri-png" target="_blank">GitHub →</a>
+        </div>
+        <div class="card">
+          <h3>Night Surveillance AI</h3>
+          <p>
+            Low-power night monitoring concept combining thermal imaging,
+            computer vision and AI detection for identifying objects in
+            difficult low-light environments.
+          </p>
+          <a class="project-link" href="https://github.com/varunmedukonduri-png" target="_blank">GitHub →</a>
+        </div>
+        <div class="card">
+          <h3>ESP32 Smart Automation</h3>
+          <p>
+            Embedded IoT work using ESP32, PIR, ultrasonic and gas sensors,
+            servo control and remote alert/automation concepts.
+          </p>
+          <a class="project-link" href="https://github.com/varunmedukonduri-png" target="_blank">GitHub →</a>
+        </div>
+        <div class="card">
+          <h3>BMS Cell Monitor</h3>
+          <p>
+            EV-oriented electronics project concept for monitoring individual
+            battery-cell voltage and building a foundation for Battery
+            Management System development.
+          </p>
+          <a class="project-link" href="https://github.com/varunmedukonduri-png" target="_blank">GitHub →</a>
+        </div>
+        <div class="card">
+          <h3>STM32 CAN Learning</h3>
+          <p>
+            Embedded automotive communication work focused on CAN frames,
+            STM32 peripherals, embedded C and the role of ECU communication
+            in vehicle systems.
+          </p>
+          <a class="project-link" href="https://github.com/varunmedukonduri-png" target="_blank">GitHub →</a>
+        </div>
+      </div>
+        <div class="card">
+          <h3>STM32 CAN Projects</h3>
+          <p>
+            Exploring STM32 automotive communication using CAN, including
+            BxCAN architecture, registers, CAN frames, and embedded C
+            programming.
+          </p>
+          <a class="project-link" href="https://github.com/varunmedukonduri-png" target="_blank">GitHub →</a>
+        </div>
+        <div class="card">
+          <h3>ESP32-CAM IoT</h3>
+          <p>
+            IoT project exploration using ESP32-CAM with sensors and remote
+            monitoring concepts, focusing on practical embedded integration.
+          </p>
+          <a class="project-link" href="https://github.com/varunmedukonduri-png" target="_blank">GitHub →</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="journey">
+    <div class="container">
+      <h2 class="section-title">Education & Direction</h2>
+      <p class="section-sub">Where I am now and what I’m building toward.</p>
+      <div class="grid">
+        <div class="card">
+          <h3>B.Tech — EEE</h3>
+          <p>KL University • 2025–2029<br>Current CGPA: 8.49</p>
+        </div>
+        <div class="card">
+          <h3>Current Focus</h3>
+          <p>Embedded C, CAN, STM32, BMS, EV architecture, automotive electronics and AI/ML.</p>
+        </div>
+        <div class="card">
+          <h3>Career Direction</h3>
+          <p>EV design and vehicle electronics, combining electrical engineering, embedded systems and intelligent software.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="container">
+      <h2 class="section-title">Let's Connect</h2>
+      <p class="section-sub">Interested in projects, hackathons, internships, and engineering communities.</p>
+      <div class="contact">
+        <div class="card">
+          <h3>GitHub</h3>
+          <p>Explore my code, experiments, and engineering projects.</p>
+          <a class="project-link" href="https://github.com/varunmedukonduri-png" target="_blank">Open GitHub →</a>
+        </div>
+        <div class="card">
+          <h3>LinkedIn</h3>
+          <p>Connect with me professionally for projects, internships, and engineering opportunities.</p>
+          <a class="project-link" href="https://www.linkedin.com/in/medikonduri-varun-chowdary-887428360/" target="_blank">Open LinkedIn →</a>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  © 2026 MedukonduriVarun Chowdary . Built for learning, projects, and opportunities.
+</footer>
+
+</body>
+</html>
